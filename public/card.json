@@ -1,0 +1,22 @@
+[
+    {
+        "logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "name": "Software Engineering",
+        "jobs_available": 50
+    },
+    {
+        "logo": "../src/assets/Logo/netflix-4 1.png",
+        "name": "Marketing",
+        "jobs_available": 30
+    },
+    {
+        "logo": "../src/assets/Logo/tesla-9 1.png",
+        "name": "Finance",
+        "jobs_available": 20
+    },
+    {
+        "logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "name": "Customer Support",
+        "jobs_available": 10
+    }
+]
