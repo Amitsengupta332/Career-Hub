@@ -2,7 +2,7 @@ import React from 'react';
 
 const Jobcatagorie = ({ job }) => {
     const { logo, name, jobs_available } = job;
-    console.log(job);
+    // console.log(job);
     return (
         <div className='mt-8'>
             <div className="card bg-base-300 shadow-xl ">
