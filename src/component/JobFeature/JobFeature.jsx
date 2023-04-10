@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import { MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid'
 
 const JobFeature = ({ feature }) => {
-    const { companyLogo, companyName, location, salaryRange, fullTime, jobTitle, remote } = feature;
-    console.log(feature);
+    const { companyLogo, companyName, location, salaryRange, fullTime, jobTitle, remote,id } = feature;
+    // console.log(feature);
+    
     return (
         <div className='pt-3 mt-3'>
             <div className="card lg:w-[90%] bg-base-100 border">
@@ -30,7 +31,7 @@ const JobFeature = ({ feature }) => {
                         </div>
                     </div>
                     <div className="">
-                        <Link className="btn btn-primary">View Details</Link>
+                        <Link to={`/jobdeails/${id}`} className="btn btn-primary">View Details</Link>
                     </div>
                 </div>
             </div>
