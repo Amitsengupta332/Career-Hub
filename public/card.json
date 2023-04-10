@@ -1,22 +1,26 @@
 [
     {
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
-        "name": "Software Engineering",
-        "jobs_available": 50
+        "id": 1,
+        "logo": "../src/assets/Icons/accounts 1.png",
+        "name": "Account & Finance",
+        "jobs_available": "300 Jobs Available"
     },
     {
-        "logo": "../src/assets/Logo/netflix-4 1.png",
-        "name": "Marketing",
-        "jobs_available": 30
+        "id": 2,
+        "logo": "../src/assets/Icons/business 1.png",
+        "name": "Creative Design",
+        "jobs_available": "100+ Jobs Available"
     },
     {
-        "logo": "../src/assets/Logo/tesla-9 1.png",
-        "name": "Finance",
-        "jobs_available": 20
+        "id": 3,
+        "logo": "../src/assets/Icons/social-media 1.png",
+        "name": "Marketing & Sales",
+        "jobs_available": "150 Jobs Available"
     },
     {
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
-        "name": "Customer Support",
-        "jobs_available": 10
+        "id": 4,
+        "logo": "../src/assets/Icons/chip 1.png",
+        "name": "Engineering Job",
+        "jobs_available": "224 Jobs Available"
     }
 ]
