@@ -1,7 +1,13 @@
 import React from 'react';
 import img from '../../assets/All Images/P3OLGJ1 copy 1.png'
+import { useLoaderData } from 'react-router-dom';
+import Jobcatagorie from '../JobCatagori/Jobcatagorie';
 
 const Home = () => {
+
+    const  catagory = useLoaderData();
+    console.log(catagory)
+
     return (
         <div >
             <div className="px-5 hero min-h-screen bg-base-200">
@@ -14,6 +20,23 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* card component */}
+            <div className='text-center mt-24 mb-6'>
+                <h1 className='text-3xl font-semibold'>Job Category List</h1>
+                <p className='text-gray-500 pt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+             <div className='grid gap-6 mb-8 lg:grid-cols-4 sm:grid-cols-1'>
+                {
+                    catagory.map(job => (
+                        <Jobcatagorie
+                        key={job.id}
+                        job={job}
+                        >
+                        </Jobcatagorie>
+                    ))
+                }
+             </div>
         </div>
     );
 };
