@@ -53,9 +53,10 @@ const Statistic = () => {
 
     ]
     return (
-        <div className='pt-6 mt-4'>
-             
-             <AreaChart width={1200} height={400} data={assigmentData} >
+        <div>
+             <h2 className='text-center text-3xl font-bold bg-base-200 pb-5 pt-5'>Statistics</h2>
+           <div className='pt-6 mt-4'>
+           <AreaChart width={1200} height={400} data={assigmentData} >
                 <XAxis dataKey="name" ></XAxis>
                 <YAxis dataKey="num"></YAxis>
                 <CartesianGrid strokeDasharray="3 3"/>
@@ -63,6 +64,7 @@ const Statistic = () => {
                 <Area dataKey="num" fill="#8884d8" type="monotone" stroke="#8884d8"/>
                  
              </AreaChart>
+           </div>
         </div>
     );
 };

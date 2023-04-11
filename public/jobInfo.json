@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+        "companyLogo": "https://i.ibb.co/jDXx1Yc/google-1-1-1.png",
         "companyName": "Google",
         "jobTitle": "Software Engineer",
         "jobDescription": "Google is looking for a Software Engineer to join our team. In this role, you will be responsible for developing and improving Google's core products and services.",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "companyLogo": "../src/assets/Logo/netflix-4 1.png",
+        "companyLogo": "https://i.ibb.co/s3fkmP1/netflix-4-1.png",
         "companyName": "Netflix",
         "jobTitle": "Product Manager",
         "jobDescription": "Netflix is looking for a Product Manager to join our team. In this role, you will be responsible for leading the development and launch of new products.",
@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+        "companyLogo": "https://i.ibb.co/6H5zvqf/tesla-9-1.png",
         "companyName": "Tesla",
         "jobTitle": "Data Scientist",
         "jobDescription": "Tesla is seeking a Data Scientist to join our team. In this role, you will be responsible for developing and implementing machine learning algorithms to drive business insights and decisions.",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "companyLogo": "../src/assets/Logo/google-1-1 1.png",
+        "companyLogo": "https://i.ibb.co/jDXx1Yc/google-1-1-1.png",
         "companyName": "Google",
         "jobTitle": "Artificial Intelligence Engineer",
         "jobDescription": "Google is seeking an Artificial Intelligence Engineer to join our team. In this role, you will be responsible for developing and deploying AI models to solve business problems.",
@@ -65,7 +65,7 @@
     },
     {
         "id": 5,
-        "companyLogo": "../src/assets/All Images/Group 10021.png",
+        "companyLogo": "https://i.ibb.co/wLJRChw/Group-10021.png",
         "companyName": "Airbnb",
         "jobTitle": "Data Analyst",
         "jobDescription": "Airbnb is seeking a Data Analyst to join our team. In this role, you will be responsible for analyzing and interpreting data to provide insights that drive business decisions.",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+        "companyLogo": "https://i.ibb.co/6H5zvqf/tesla-9-1.png",
         "companyName": "Tesla",
         "jobTitle": "Software Development Engineer",
         "jobDescription": "Tesla is seeking a Software Development Engineer to join our team. In this role, you will be responsible for developing and maintaining software products used by millions of users around the world.",
