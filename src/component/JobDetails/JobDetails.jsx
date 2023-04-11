@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { PhoneIcon, EnvelopeIcon, MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import img from '../../assets/Icons/Frame-1.png'
+import { addTodb } from '../../utils/fakeDB';
 
 const JobDetails = () => {
 
@@ -18,7 +21,11 @@ const JobDetails = () => {
         setSelected(selectJob)
     }, [featureJOb])
 
-    console.log(selectedJob)
+    // console.log(selectedJob)
+    const handleappliedJob = id =>{
+        // console.log(id);
+        addTodb(id)
+    }
 
     const { jobTitle, jobDescription, jobResponsibilities, educationalRequirements, experienceRequirements, location, salaryRange, phone, email } = selectedJob;
     // console.log(dynamic);
@@ -39,20 +46,36 @@ const JobDetails = () => {
                         <div className="card-body">
                             <h2 className="card-title">Job Details</h2>
                             <hr />
-                            <p className='text-xl'><span >Salary </span> : {salaryRange}</p>
-                            <p className='text-xl'><span >Job Title</span>: {jobTitle}</p>
+                            <div className='flex justify-center items-center gap-2'>
+                                <CurrencyDollarIcon className="h-6 w-6" />
+                                <p className='text-xl'><span >Salary </span> : {salaryRange}</p>
+                            </div>
+                            <div className='flex items-start justify-center  gap-2'>
+                                <img src={img} alt="" />
+                                <p className='text-xl'>Job Title: {jobTitle}</p>
+                            </div>
 
                             <h2 className='text-xl'>Contact Information</h2>
                             <hr />
-                            <p className='text-xl'><span>Phone</span>: {phone}</p>
-                            <p className='text-xl'><span>Email :</span>{email}</p>
-                            <p className='text-xl'><span>Address :</span>{location}</p>
+                            <div className='flex justify-center items-center gap-2'>
+                                <PhoneIcon className="h-4 w-4 " />
+                                <p className='text-xl'>
+                                    <span>Phone</span>: {phone}</p>
+                            </div>
+                            <div className='flex justify-center items-center gap-2'>
+                                <EnvelopeIcon className="h-4 w-4 " />
+                                <p className='text-xl'><span>Email :</span>{email}</p>
+                            </div>
+                            <div className='flex justify-center items-center gap-2'>
+                                <MapPinIcon className="h-4 w-4 " />
+                                <p className='text-xl'><span>Address :</span>{location}</p>
+                            </div>
 
-                            <button className="btn btn-primary">Apply Now</button>
-                            
+                            <button   onClick={()=>handleappliedJob(id)} className="btn btn-primary">Apply Now</button>
+
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
         </div>
