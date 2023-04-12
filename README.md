@@ -2,6 +2,8 @@
 
 Best Job Finding platform for finding a good job for your requirement.
 
+anybody from any place and anyone can find the job from this place
+
 ## Live Link
 Hosted in Netlify -> [CareerScope](https://bright-axolotl-14865d.netlify.app/)
 
@@ -17,3 +19,9 @@ Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
 Title Text Animation -> [Tailwind Play](https://play.tailwindcss.com/VCZwwz1e3R)
 
 Icon -> [Hero Icon](https://heroicons.com/)
+
+
+
+
+
+
