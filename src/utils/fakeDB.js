@@ -1,8 +1,7 @@
-//  add to local storage 
 
 const addTodb = id => {
     let appliedJob = {}
-    // localStorage.setItem('applied-job',id)
+ 
 
     const storedJob = localStorage.getItem('applied-job')
     if (storedJob) {
@@ -10,7 +9,7 @@ const addTodb = id => {
     }
 
 
-    // add quantity
+    
     const count = appliedJob[id]
     if (count) {
         const newCount = count + 1;
@@ -21,7 +20,7 @@ const addTodb = id => {
 
     localStorage.setItem('applied-job', JSON.stringify(appliedJob))
 }
-// get stored data from the cart
+ 
 const getStoredJob = () => {
     let appliedJob = {}
 
